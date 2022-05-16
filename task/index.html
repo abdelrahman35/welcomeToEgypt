@@ -1,0 +1,407 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Egypt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="../assets/egypt.png" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <style>
+      /* Extra small devices (phones, 600px and down) */
+      @media only screen and (max-width: 600px) {
+        #WelcomeToEgypt {
+          text-align: center;
+        }
+        #videoText {
+          text-align: center;
+        }
+        #subTitleWhereToGo {
+          text-align: center;
+          font-style: normal;
+        }
+        #circlePhoto1 {
+          display: block;
+          height: 100px;
+          width: 100px;
+        }
+        #circlePhoto2,
+        #circlePhoto3,
+        #circlePhoto4 {
+          height: 50px;
+          width: 50px;
+        }
+      }
+      /* Small devices (portrait tablets and large phones, 600px and up) */
+      @media only screen and (min-width: 600px) {
+        #WelcomeToEgypt {
+          text-align: center;
+        }
+        #circlePhoto1,
+        #circlePhoto2,
+        #circlePhoto3,
+        #circlePhoto4 {
+          height: 100px;
+          width: 100px;
+        }
+      }
+      /* Medium devices (landscape tablets, 768px and up) */
+      @media only screen and (min-width: 768px) {
+        #WelcomeToEgypt {
+          text-align: center;
+        }
+        #subTitleWhereToGo {
+          text-align: center;
+          font-style: normal;
+        }
+        #circlePhoto1,
+        #circlePhoto2,
+        #circlePhoto3,
+        #circlePhoto4 {
+          height: 150px;
+          width: 150px;
+        }
+      }
+      /* Large devices (laptops/desktops, 992px and up) */
+      @media only screen and (min-width: 992px) {
+        #WelcomeToEgypt {
+          text-align: center;
+        }
+        #cairo,
+        #dahab,
+        #sharm {
+          height: 200px;
+        }
+        #subTitleWhereToGo {
+          text-align: left;
+          font-style: italic;
+        }
+        #whereToGo {
+          text-align: center;
+        }
+        #circlePhoto1,
+        #circlePhoto2,
+        #circlePhoto3,
+        #circlePhoto4 {
+          height: 150px;
+          width: 150px;
+        }
+      }
+      /* Extra large devices (large laptops and desktops, 1200px and up) */
+      @media only screen and (min-width: 1200px) {
+        #whereToGo {
+          border-right: 1px solid rgb(153, 153, 153);
+        }
+        #WelcomeToEgypt {
+          text-align: center;
+        }
+        #circlePhoto1,
+        #circlePhoto2,
+        #circlePhoto3,
+        #circlePhoto4 {
+          height: 150px;
+          width: 150px;
+        }
+      }
+      body {
+        font-family: "Raleway";
+      }
+      #flag {
+        width: 150px;
+        height: 56px;
+        box-sizing: content-box;
+        padding-top: 15px;
+        position: relative;
+        background: #434668;
+        color: white;
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      #flag:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 20px solid rgb(255, 255, 195);
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(255, 255, 195)">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1">
+          <p id="flag" class="d-none d-lg-block"></p>
+        </div>
+        <div class="col-lg-10">
+          <p id="WelcomeToEgypt" class="fw-bolder fs-1 m-3 ms-lg-5">
+            Welcome to Egypt
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="justify-content-center col-12 col-md-12 col-lg-1">
+          <a
+            class="text-decoration-none"
+            href="https://egypt.travel/en/attractions/the-great-sphinx"
+          >
+            <img
+              id="circlePhoto1"
+              class="rounded-circle p-md-1 d-none d-lg-block shadow-lg m-lg-2"
+              src="../assets/sphinx.jpg"
+              alt="sphinx"
+            />
+          </a>
+
+          <img
+            id="circlePhoto2"
+            class="rounded-circle p-md-1 m-md-2 d-none d-lg-block shadow-lg m-lg-2"
+            src="../assets/1.jpg"
+            alt="sphinx"
+          />
+          <img
+            id="circlePhoto3"
+            class="rounded-circle p-md-1 m-md-2 d-none d-lg-block shadow-lg m-lg-2"
+            src="../assets/2.jpg"
+            alt="sphinx"
+          />
+          <img
+            id="circlePhoto4"
+            class="rounded-circle p-md-1 m-md-2 d-none d-lg-block shadow-lg m-lg-2"
+            src="../assets/8.jpg"
+            alt="sphinx"
+          />
+        </div>
+
+        <div class="col-lg-10 ms-lg-auto">
+          <div class="row">
+            <p
+              class="fw-normal m-4 fs-5 d-none d-lg-block col-lg-12 text-center"
+            >
+              Egyptian culture dates back thousands of years to the ancient
+              Pharaohs and has been influenced by numerous invaders throughout
+              history. Without a doubt, this colonialist footprint has blended
+              with the country’s rich tradition to define Egyptian culture as we
+              know it today.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 m-md-auto col-lg-4">
+              <div class="card" style="width: auto">
+                <img src="../assets/7.jpg" class="card-img-top" alt="4" />
+              </div>
+            </div>
+            <div class="col-md-4 m-md-auto col-lg-4">
+              <div class="card" style="width: auto">
+                <img src="../assets/5.jpg" class="card-img-top" alt="5" />
+              </div>
+            </div>
+            <div class="col-md-4 m-md-auto col-lg-4">
+              <div class="card" style="width: auto">
+                <img src="../assets/6.jpg" class="card-img-top" alt="6" />
+              </div>
+            </div>
+          </div>
+          <hr class="mt-lg-4" />
+          <div class="row mt-lg-4">
+            <div class="col-md-4 m-md-auto col-lg-4">
+              <div
+                class="card border-0 bg-transparent text-center"
+                style="width: auto"
+              >
+                <img
+                  src="../assets/1.jpg"
+                  class="card-img-top rounded-circle p-md-1 mt-2 shadow-lg align-self-center"
+                  alt="..."
+                  style="height: 150px; width: 150px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Aswan</h5>
+
+                  <p class="card-text">
+                    Located about 899 km south from Cairo, Aswan is a serene
+                    Nile Valley destination where the Nile is more majestic than
+                    anywhere else, flowing through granite rocks, and round
+                    emerald islands covered in palm groves and tropical plants.
+                    It is considered as an all-time favourite winter
+                    destination.
+                  </p>
+                  <a
+                    href="https://egypt.travel/en/regions/the-nile/aswan  "
+                    class="btn btn-primary"
+                    >More About Aswan
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 m-md-auto col-lg-4">
+              <div
+                class="card text-center border-0 bg-transparent"
+                style="width: auto"
+              >
+                <img
+                  src="../assets/2.jpg"
+                  class="card-img-top rounded-circle p-md-1 mt-2 shadow-lg align-self-center"
+                  alt="..."
+                  style="height: 150px; width: 150px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Luxor</h5>
+                  <p class="card-text">
+                    Luxor, once an Ancient Egyptian capital, is known today as
+                    the world's greatest open-air museum. From the tomb of
+                    Tutankhamen in the Valley of the Kings and the magnificent
+                    sunset views at the majestic temple complexes of Karnak and
+                    Luxor to the exciting and fun Nile cruises. Luxor to the
+                    exciting.
+                  </p>
+                  <a
+                    href="https://egypt.travel/en/regions/the-nile/luxor"
+                    class="btn btn-primary"
+                    >More About Luxor</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 m-md-auto col-lg-4">
+              <div
+                class="card text-center border-0 bg-transparent"
+                style="width: auto"
+              >
+                <img
+                  src="../assets/3.jpg"
+                  class="card-img-top rounded-circle p-md-1 mt-2 shadow-lg align-self-center"
+                  alt="..."
+                  style="height: 150px; width: 150px"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Giza</h5>
+                  <p class="card-text">
+                    Giza is located on the west bank of the Nile and is home to
+                    some of the most exceptional archeological sites in the
+                    world. With the Great Pyramids of Giza as its hallmark, the
+                    city is a must-visit destination to view the greatest and
+                    only one of the ancient seven wonders of the world still
+                    standing today.
+                  </p>
+                  <a href="#" class="btn btn-primary">More About Giza</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="mt-lg-4" />
+          <div class="row mt-lg-4">
+            <div class="col-lg-3">
+              <p
+                id="whereToGo"
+                class="fw-bolder"
+                style="text-align: center; font-size: 50px"
+              >
+                WHERE TO GO
+              </p>
+            </div>
+            <div class="col-lg-9">
+              <p id="subTitleWhereToGo" class="m-lg-2 fw-lighter fs-1">
+                Everyday is a journey and your journey starts here
+              </p>
+            </div>
+          </div>
+          <div class="row mt-lg-4">
+            <div class="col-lg-8">
+              <div class="card" style="width: auto">
+                <video controls muted>
+                  <source
+                    src="../assets/ExperienceEgypt.mp4"
+                    type="video/mp4"
+                  />
+
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div
+                class="card text-lg-start fw-light p-lg-0 border-0 bg-transparent"
+                style="width: auto"
+              >
+                <div id="videoText" class="card-body">
+                  Home of the ancient Pharaohs, Egypt is a destination full of
+                  dazzling temples and tombs that wow all who visit. It's not
+                  all historic treasures and tourist attractions, though. With
+                  vast tracts of desert for 4WD adventures, the Red Sea's
+                  world-class coral reefs and wrecks for divers, and cruising on
+                  the famed Nile River, there are plenty of things to do for all
+                  types of travelers.
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="row mt-lg-4">
+            <div class="col-lg-4">
+              <div class="card text-white mb-2 mb-lg-0">
+                <img
+                  id="cairo"
+                  src="../assets/cairo.jpg"
+                  class="card-img"
+                  alt="cairo"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="card-title fw-bolder fs-1">cairo</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-white mb-2 mb-lg-0">
+                <img
+                  id="dahab"
+                  src="../assets/dahab-blue-hole-beach-1.jpg"
+                  class="card-img"
+                  alt="cairo"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="card-title fw-bolder fs-1">dahab</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card bg-dark text-white mb-2 mb-lg-0">
+                <img
+                  id="sharm"
+                  src="../assets/luxor.jpg"
+                  class="card-img"
+                  alt="cairo"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="card-title fw-bolder fs-1">luxor</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <footer>
+            <p class="text-center">
+              Made with <i class="bi bi-heart-fill"></i> By
+              <a
+                class="text-decoration-none link-primary"
+                href="https://github.com/abdelrahman35"
+                >Abdelrahman Tarek</a
+              >
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
